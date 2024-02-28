@@ -6,6 +6,8 @@ An Ensemble Framework for Explainable Geospatial Analysis Machine Learning Model
  
 GitHub: https://github.com/UrbanGISer/XGeoML
 
+Installation: pip install XGeoML
+
 This Package addresses the critical challenge of analyzing and interpreting spatial varying effects in geographic analysis due to the complexity and non-linearity of geospatial data. We introduce an innovative integrated framework that combines local spatial weights, Explainable Artificial Intelligence (XAI), and advanced machine learning technologies. This approach significantly narrows the gap between traditional geographic analysis models and contemporary machine learning methodologies.
 
 ## Introduction
