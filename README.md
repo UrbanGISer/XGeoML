@@ -1,7 +1,7 @@
 # XGeoML
 An Ensemble Framework for Explainable Geospatial Analysis Machine Learning Models
 
-# An Ensemble Framework for Geospatial Machine Learning
+# An Ensemble Framework for Geospatial Machine Learning Models
 
  
 GitHub: https://github.com/UrbanGISer/XGeoML
