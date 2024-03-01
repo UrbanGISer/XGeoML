@@ -1,16 +1,9 @@
-# XGeoML
-An Ensemble Framework for Explainable Geospatial Analysis Machine Learning Models
-
-# An Ensemble Framework for Geospatial Machine Learning Models
+# An Ensemble Framework for Geospatial Machine Learning
 
  
 GitHub: https://github.com/UrbanGISer/XGeoML
 
-PYPI Homepage: https://pypi.org/project/XGeoML/0.1.4/
-
-Installation: pip install XGeoML
-
-This Package addresses the critical challenge of analyzing and interpreting spatial varying effects in geographic analysis due to the complexity and non-linearity of geospatial data. We introduce an innovative integrated framework that combines local spatial weights, Explainable Artificial Intelligence (XAI), and advanced machine learning technologies. This approach significantly narrows the gap between traditional geographic analysis models and contemporary machine learning methodologies.
+This package addresses the critical challenge of analyzing and interpreting spatially varying effects in geographic analysis, stemming from the complexity and non-linearity of geospatial data. We introduce an innovative integrated framework that combines local spatial weights, Explainable Artificial Intelligence (XAI), and advanced machine learning technologies. This approach significantly bridges the gap between traditional geographic analysis models and contemporary machine learning methodologies.
 
 ## Introduction
 
@@ -26,7 +19,12 @@ We propose an innovative integrated framework that leverages local spatial weigh
 - **Explainable Artificial Intelligence (XAI):** Provides clarity on the decision-making process, improving the interpretability of the model's predictions.
 - **Advanced Machine Learning Technologies:** Utilizes cutting-edge algorithms to manage the complexity and non-linearity of geospatial data effectively.
 
-## Results
+## Key Functions
+- **Built-in Spatial Weights:** Generate Gaussian， Binary and GaussianBinary weight.
+weights=w_matrix.spatial_weight(df, "u", "v", fix=False, bandwidth=80, kernel_type='Binary')
+
+- **Import Libpysal Spatial Weights:** Accept all spatial weight.
+weightpysal=w_matrix.from_libpysal(w)
 
 Through rigorous testing on synthetic datasets, our framework has proven to enhance the interpretability and accuracy of geospatial predictions in both regression and classification tasks. It effectively elucidates spatial variability, representing a significant advancement in the precision of predictions and offering a novel perspective for understanding spatial phenomena.
 
