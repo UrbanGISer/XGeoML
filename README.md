@@ -3,6 +3,10 @@
  
 GitHub: https://github.com/UrbanGISer/XGeoML
 
+PYPI Homepage: https://pypi.org/project/XGeoML/0.1.4/
+
+Installation: pip install XGeoML
+
 This package addresses the critical challenge of analyzing and interpreting spatially varying effects in geographic analysis, stemming from the complexity and non-linearity of geospatial data. We introduce an innovative integrated framework that combines local spatial weights, Explainable Artificial Intelligence (XAI), and advanced machine learning technologies. This approach significantly bridges the gap between traditional geographic analysis models and contemporary machine learning methodologies.
 
 ## Introduction
