@@ -1,4 +1,4 @@
-# An Ensemble Framework for Geospatial Machine Learning
+# An Ensemble Framework for Geospatial Machine Learning Models
 
  
 GitHub: https://github.com/UrbanGISer/XGeoML
