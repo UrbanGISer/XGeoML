@@ -20,18 +20,18 @@ We propose an innovative integrated framework that leverages local spatial weigh
 - **Advanced Machine Learning Technologies:** Utilizes cutting-edge algorithms to manage the complexity and non-linearity of geospatial data effectively.
 
 ## Key Functions
-- **Use built-in Spatial Weights:** Generate Gaussian， Binary and GaussianBinary weight.
+- **Use built-in Spatial Weights:** Generate Gaussian, Binary and GaussianBinary weight.
 ```python
 weights=w_matrix.spatial_weight(df, "u", "v", fix=False, bandwidth=80, kernel_type='Binary')
 ```
-- **Import Libpysal Spatial Weights:** Accept all spatial weight.
+- **Import libpysal Spatial Weights:** Accept all spatial weight.
 ```python
 import libpysal.weights as lw
 points = df[['u', 'v']].values
 w=lw.DistanceBand(points,threshold=6,binary=False)
 weightpysal=w_matrix.from_libpysal(w)
 ```
-- **Predict or bandsearching with fast training model:** Accept all sci-learn model.
+- **Predict or Search Bandwidth with fast training model:** Accept all sci-learn model.
 ```python
 # 01 Define key variables
 feature_names=['x1','x2','x3','x4']
@@ -60,7 +60,7 @@ for i in range(10):
         eval_bandwidth.loc[i, j]=r22
 ```
 
-- **Predict and evaluate single one:** Using new spatial weight based on bandwidth searching.
+- **Predict and Evaluate with updated Spatial Weights:** Using new spatial weight based on bandwidth searching.
 ```python
 # 06 Predict
 df_pred=fast_train.predict(df, feature_names, target_name, weights, model)
