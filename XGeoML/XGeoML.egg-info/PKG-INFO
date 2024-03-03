@@ -6,15 +6,8 @@ Home-page: https://github.com/UrbanGISer/XGeoML
 Author: Lingbo Liu
 Author-email: lingboliu@fas.harvard.edu
 License: MIT
+Platform: UNKNOWN
 Description-Content-Type: text/markdown
-Requires-Dist: scikit-learn
-Requires-Dist: numpy
-Requires-Dist: scipy
-Requires-Dist: joblib
-Requires-Dist: pandas
-Requires-Dist: lime
-Requires-Dist: shap
-Requires-Dist: tqdm
 
 # An Ensemble Framework for Geospatial Machine Learning Models
 
@@ -135,4 +128,6 @@ Our integrated framework marks a significant step forward in geographic analysis
 ## Contact
 
 For further information, inquiries, or collaborations, please contact us at [lingboliu@fas.harvard.edu](mailto:lingboliu@fas.harvard.edu).
+
+
 
