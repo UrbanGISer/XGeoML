@@ -77,6 +77,8 @@ r2_score(df_pred.y,df_pred.predy)
 ```python
 # 08 Explain
 df_explain=fast_train.explain(df, feature_names, target_name, weights,model, explainer_names)
+#for append GWR interpolating SHAP, user must install/import  mgwr and specify the coordinatea
+df_explain=fast_train.explainexplain(df, feature_names, target_name, weights, model_class, explainer_names,xcoord='u',ycoord='v',shap_gwr=True)
 ```
 - **Partial Dependence Estimation:** Sample bin is used here, two mode: even or original values.
 ```python

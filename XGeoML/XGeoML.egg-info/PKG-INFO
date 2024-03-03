@@ -1,13 +1,20 @@
 Metadata-Version: 2.1
 Name: XGeoML
-Version: 0.1.5
+Version: 0.1.6
 Summary: A ensemble framework for explainable geospatial machine Learning models
 Home-page: https://github.com/UrbanGISer/XGeoML
 Author: Lingbo Liu
 Author-email: lingboliu@fas.harvard.edu
 License: MIT
-Platform: UNKNOWN
 Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: joblib
+Requires-Dist: pandas
+Requires-Dist: lime
+Requires-Dist: shap
+Requires-Dist: tqdm
 
 # An Ensemble Framework for Geospatial Machine Learning Models
 
@@ -88,6 +95,8 @@ r2_score(df_pred.y,df_pred.predy)
 ```python
 # 08 Explain
 df_explain=fast_train.explain(df, feature_names, target_name, weights,model, explainer_names)
+#for append GWR interpolating SHAP, user must install/import  mgwr and specify the coordinatea
+df_explain=fast_train.explainexplain(df, feature_names, target_name, weights, model_class, explainer_names,xcoord='u',ycoord='v',shap_gwr=True)
 ```
 - **Partial Dependence Estimation:** Sample bin is used here, two mode: even or original values.
 ```python
@@ -126,6 +135,4 @@ Our integrated framework marks a significant step forward in geographic analysis
 ## Contact
 
 For further information, inquiries, or collaborations, please contact us at [lingboliu@fas.harvard.edu](mailto:lingboliu@fas.harvard.edu).
-
-
 
