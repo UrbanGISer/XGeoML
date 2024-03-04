@@ -4,7 +4,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/X/XGeoML/XGeoML-0.1.6.tar.gz
-  sha256: 300E5495D0306F472C1AA34A522273E3066B9F50D3EB25CEE17CD3B6177EEA54
+  sha256: 601f270e748c89dddfb31d0f0f202b740e53dc230f5a028cfdc8772b5af30df1
 
 build:
   number: 0
