@@ -3,8 +3,9 @@ package:
   version: "0.1.6"
 
 source:
-  git_url: https://github.com/UrbanGISer/XGeoML
+  git_url: https://github.com/UrbanGISer/XGeoML.git
   git_tag: v0.1.6
+  path: XGeoML_Conda
 
 build:
   number: 0
