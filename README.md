@@ -1,3 +1,5 @@
+![XGeoML](https://github.com/UrbanGISer/XGeoML/blob/main/xgeoml_text_logo.png)
+
 # An Ensemble Framework for Geospatial Machine Learning Models
 
  
