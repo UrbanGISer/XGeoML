@@ -5,7 +5,7 @@
  
 GitHub: https://github.com/UrbanGISer/XGeoML
 
-PYPI Homepage: https://pypi.org/project/XGeoML/0.1.6/
+PYPI Homepage: https://pypi.org/project/XGeoML/
 
 Conda  Homepage: https://anaconda.org/UrbanGISer/xgeoml
 
