@@ -13,6 +13,8 @@ PYPI Installation: pip install XGeoML
 
 Conda Installation:conda install urbangiser::xgeoml
 
+Lingbo Liu. (2024).An Ensemble Framework for Explainable Geospatial Machine Learning Models. arXiv preprint [http://arxiv.org/abs/2403.03328](https://arxiv.org/abs/2403.03328)
+
 This package addresses the critical challenge of analyzing and interpreting spatially varying effects in geographic analysis, stemming from the complexity and non-linearity of geospatial data. We introduce an innovative integrated framework that combines local spatial weights, Explainable Artificial Intelligence (XAI), and advanced machine learning technologies. This approach significantly bridges the gap between traditional geographic analysis models and contemporary machine learning methodologies.
 
 ## Introduction
